@@ -20,7 +20,6 @@ Ce projet contient la solution le test technique. Il se compose de deux parties 
 1.  **Clonez le repository :**
     ```bash
     git clone https://github.com/thibautweber/test_chatbot.git
-    cd test_chatbot
     cd partie1
     ```
 
