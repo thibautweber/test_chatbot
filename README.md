@@ -74,17 +74,13 @@ Ce script utilise un modèle de vision pour décrire le contenu d'une image.
     ```bash
     pip install torch transformers pillow
     ```
-* (Optionnel) Un GPU avec au moins 8GB de VRAM pour des performances optimales. Le script fonctionnera sur CPU mais sera très lent.
+
 
 ### Lancement
 
-1.  **Préparez votre image :**
-    * Placez une image que vous souhaitez analyser à la racine du projet (ou n'importe où ailleurs) et nommez-la, par exemple, `image_a_tester.png`.
-
-2.  **Exécutez le script :**
-    * (Assurez-vous d'avoir un fichier `vlm_analyzer.py` comme celui que nous avons créé).
+1.  **Exécutez le script :**
     * Lancez le script en lui passant le chemin de l'image :
         ```bash
-        python vlm_analyzer.py --image "chemin/vers/votre/image_a_tester.png"
+        python script_vlm.py
         ```
     Le script téléchargera le modèle (la première fois) puis affichera une description de l'image dans la console.
