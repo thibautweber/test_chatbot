@@ -7,7 +7,7 @@ Ce projet contient la solution le test technique. Il se compose de deux parties 
 
 ---
 
-## 🚀 Partie 1 : Chatbot avec Accès Internet
+## Partie 1 : Chatbot avec Accès Internet
 
 ### Prérequis
 
@@ -64,7 +64,7 @@ Ce projet contient la solution le test technique. Il se compose de deux parties 
 
 ---
 
-## 🖼️ Partie 2 : Script d'Analyse d'Image (VLM)
+## Partie 2 : Script d'Analyse d'Image (VLM)
 
 Ce script utilise un modèle de vision pour décrire le contenu d'une image.
 
