@@ -19,8 +19,8 @@ Ce projet contient la solution le test technique. Il se compose de deux parties 
 
 1.  **Clonez le repository :**
     ```bash
-    git clone [URL_DE_VOTRE_REPO]
-    cd [NOM_DE_VOTRE_REPO]
+    git clone https://github.com/thibautweber/test_chatbot.git
+    cd test_chatbot
     ```
 
 2.  **Configuration du Backend :**
@@ -34,7 +34,7 @@ Ce projet contient la solution le test technique. Il se compose de deux parties 
         ```
     * Créez un fichier `.env` et ajoutez-y votre clé API OpenRouter :
         ```
-        OPENROUTER_API_KEY="votre_clé_api_ici"
+        OPENROUTER_API_KEY="votre_clé_api"
         ```
 
 3.  **Configuration du Frontend :**
@@ -64,7 +64,11 @@ Ce projet contient la solution le test technique. Il se compose de deux parties 
 
 ---
 
-## Partie 2 : Script d'Analyse d'Image (VLM)
+## Partie 2 : Tout est dans le PDF du dossier partie2
+
+---
+
+## Partie 3 : Script d'Analyse d'Image (VLM)
 
 Ce script utilise un modèle de vision pour décrire le contenu d'une image.
 
@@ -78,8 +82,13 @@ Ce script utilise un modèle de vision pour décrire le contenu d'une image.
 
 ### Lancement
 
-1.  **Exécutez le script :**
-    * Lancez le script en lui passant le chemin de l'image :
+**Exécutez le script :**
+* Naviguez dans le dossier partie3 :
+        ```bash
+        cd partie3
+        ```
+
+* Lancez le script :
         ```bash
         python script_vlm.py
         ```
