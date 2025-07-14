@@ -76,6 +76,7 @@ Ce script utilise un modèle de vision pour décrire le contenu d'une image.
 ### Prérequis
 
 * Python avec les bibliothèques `torch`, `transformers`, et `pillow`.
+
     ```bash
     pip install torch transformers pillow
     ```
@@ -90,7 +91,7 @@ Ce script utilise un modèle de vision pour décrire le contenu d'une image.
         ```
 
 * Lancez le script :
-        ```bash
-        python script_vlm.py
-        ```
+    ```bash
+    python script_vlm.py
+    ```
     Le script téléchargera le modèle (la première fois) puis affichera une description de l'image dans la console.
