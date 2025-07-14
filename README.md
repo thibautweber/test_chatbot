@@ -21,6 +21,7 @@ Ce projet contient la solution le test technique. Il se compose de deux parties 
     ```bash
     git clone https://github.com/thibautweber/test_chatbot.git
     cd test_chatbot
+    cd partie1
     ```
 
 2.  **Configuration du Backend :**
