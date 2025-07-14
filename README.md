@@ -86,9 +86,10 @@ Ce script utilise un modèle de vision pour décrire le contenu d'une image.
 
 **Exécutez le script :**
 * Naviguez dans le dossier partie3 :
-        ```bash
-        cd partie3
-        ```
+
+    ```bash
+    cd partie3
+    ```
 
 * Lancez le script :
     ```bash
